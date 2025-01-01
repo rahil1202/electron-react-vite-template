@@ -20,7 +20,6 @@ A complete setup for building a cross-platform desktop application using React (
 ### Prerequisites
 
 - **Node.js**: Install from [Node.js website](https://nodejs.org/).
-- **MongoDB** (optional): Install for database functionality, if needed.
 
 ---
 
@@ -36,9 +35,9 @@ A complete setup for building a cross-platform desktop application using React (
 2. Install dependencies:
 
    ```bash
-   npm install
+   npm install 
    cd frontend && npm install
-   cd ../backend && npm install
+   cd backend && npm install
    ```
 
 ---
@@ -46,6 +45,7 @@ A complete setup for building a cross-platform desktop application using React (
 ### Development
 
 To run the project in development mode:
+Go to root directory
 
 ```bash
 npm run dev
@@ -54,7 +54,7 @@ npm run dev
 This will:
 
 - Start the **React frontend** (`http://localhost:5173`).
-- Start the **Node.js backend** (`http://localhost:5000`).
+- Start the **Node.js backend** (`http://localhost:4000`).
 - Launch the **Electron desktop application**.
 
 ---
