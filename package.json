@@ -1,0 +1,45 @@
+{
+  "name": "react-electron-vite-template",
+  "author": "Rahil Vahora",
+  "link": "github.com/rahil1202",
+  "version": "1.0.0",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "concurrently \"npm run backend\" \"npm run frontend\" \"wait-on http://localhost:5173 && electron .\"",
+    "backend": "npm run dev --prefix backend",
+    "frontend": "npm run dev --prefix frontend",
+    "build": "npm run build --prefix frontend",
+    "start": "electron ."
+  },
+  "build": {
+    "appId": "com.example.project",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "frontend/dist/**/*",
+      "electron/**/*",
+      "backend/dist/**/*",
+      "node_modules/**/*"
+    ],
+    "win": {
+      "target": "nsis"
+    },
+    "mac": {
+      "target": "dmg"
+    },
+    "linux": {
+      "target": "AppImage"
+    }
+  },
+  "keywords": [],
+  "license": "MIT",
+  "description": "Template for creating React Electron apps with Vite",
+
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "electron": "^33.2.1",
+    "electron-builder": "^25.1.8",
+    "wait-on": "^8.0.1"
+  }
+}

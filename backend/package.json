@@ -1,0 +1,27 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "dev": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "Rahil Vahora",
+  "link": "github.com/rahil1202",
+  "license": "ISC",
+  "description": "  ",
+
+  "type": "module",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/node": "^7.26.0",
+    "@babel/preset-env": "^7.26.0"
+  }
+}
