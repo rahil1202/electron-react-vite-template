@@ -14,10 +14,13 @@ function createMainWindow() {
             preload: path.join(__dirname, "preload.js"),
             contextIsolation: true,
             nodeIntegration: false,
+            sandbox: true,  // Enables sandbox for better security
+            enableRemoteModule: false,  // Prevents unnecessary remote access
+            webSecurity: true,  // Enforces security policies
         },
     });
 
-    const startURL = isDev
+   const startURL = isDev
         ? "http://localhost:5173"
         : `file://${path.join(__dirname, "frontend", "dist", "index.html")}`;
 
