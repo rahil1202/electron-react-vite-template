@@ -75,6 +75,7 @@ This will:
 If it fails run terminal as administrator and then run above code again.
 
 3. The packaged app will be available in the `dist/` directory, with name `react-electron-vite-template Setup.exe`
+   You may install it and use it. It can be share across easily
 
 ---
 
