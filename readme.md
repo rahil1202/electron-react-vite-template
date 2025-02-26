@@ -70,10 +70,11 @@ This will:
 2. Package the app for distribution:
 
    ```bash
-   npm run electron-builder
+   npx electron-builder
    ```
+If it fails run terminal as administrator and then run above code again.
 
-3. The packaged app will be available in the `dist/` directory.
+3. The packaged app will be available in the `dist/` directory, with name `react-electron-vite-template Setup.exe`
 
 ---
 
@@ -109,3 +110,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 - GitHub: [rahil1202](https://github.com/rahil1202)
 - Email: <rahilisvahora@gmail.com>
+- LinkedIn:[rahil-vahora](https://linkedin.com/in/rahil-vahora)

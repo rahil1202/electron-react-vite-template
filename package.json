@@ -35,7 +35,6 @@
   "keywords": [],
   "license": "MIT",
   "description": "Template for creating React Electron apps with Vite",
-
   "devDependencies": {
     "concurrently": "^9.1.2",
     "electron": "^33.2.1",
