@@ -1,4 +1,4 @@
-# React + Vite + Node.js Backend + Electron
+# React Frontend + Vite + Node.js Backend + Electron
 
 A complete setup for building a cross-platform desktop application using React (frontend), Vite (development tooling), Node.js (backend), and Electron (desktop environment). This project serves as a template for developers looking to build modern desktop applications with a lightweight backend.
 

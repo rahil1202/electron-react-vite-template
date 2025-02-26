@@ -22,7 +22,7 @@ function createMainWindow() {
 
    const startURL = isDev
         ? "http://localhost:5173"
-        : `file://${path.join(__dirname, "frontend", "dist", "index.html")}`;
+        : `file://${path.join(__dirname, "../frontend/dist/index.html")}`;
 
     mainWindow.loadURL(startURL).catch((err) => {
         console.error("Failed to load URL:", err);
