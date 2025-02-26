@@ -29,7 +29,7 @@ A complete setup for building a cross-platform desktop application using React (
 
    ```bash
    git clone https://github.com/rahil1202/react-electron-vite-template.git
-   cd react-electron-vite-template
+   cd electron-react-vite-template
    ```
 
 2. Install dependencies:
